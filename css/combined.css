@@ -844,4 +844,59 @@ h1 {
 }
 .links-section .link-badges .badge:nth-child(4) .badge-top h5 {
   color: #205AF0;
+}
+
+.testimonials-section {
+  width: 96vw;
+  height: 70vh;
+  max-height: 70vh;
+}
+.testimonials-section #testimonials-slider {
+  width: 100%;
+  height: 100%;
+}
+.testimonials-section #testimonials-slider .sp-mask {
+  width: 100vw;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide {
+  width: 100%;
+  height: 100%;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 {
+  width: 100%;
+  height: 100%;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 svg, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 svg {
+  max-width: 2em;
+  max-height: 2em;
+  display: block;
+  margin: 0 auto;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 p, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 p {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 .testimonial-bottom, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 .testimonial-bottom {
+  display: flex;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 .testimonial-bottom .elipse, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 .testimonial-bottom .elipse {
+  width: 10%;
+  height: 10vh;
+  border-radius: 50%;
+  background: blue;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 .testimonial-bottom .user-info, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 .testimonial-bottom .user-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 20%;
+}
+.testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 .testimonial-bottom .user-info .rating {
+  display: flex;
 }/*# sourceMappingURL=combined.css.map */

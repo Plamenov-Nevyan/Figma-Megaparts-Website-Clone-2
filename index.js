@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $( '#testimonials-slider' ).sliderPro();
     $('.header-bottom').slideDown('slow').css({'display': 'flex'})
     setTimeout(() => {
         $('.home-badge').fadeIn('slow').css({'display': 'flex'})
