@@ -14,7 +14,7 @@ $(document).ready(function(){
        
     }, 2000)
     initBigSlide()
-
+    initManualProductSlider()
    $(window).on('scroll', function(){
     console.log($(this).scrollTop())
         if($(this).scrollTop() >= 160){
@@ -55,5 +55,11 @@ $(document).ready(function(){
 
     function initNavBadgesSlide(){
         $('.badges-slide-links').slick()
+    }
+
+    function initManualProductSlider(){
+        // $('.products-slider').slick({
+        //     adaptiveHeight: true,
+        // })
     }
 })
