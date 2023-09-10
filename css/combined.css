@@ -284,4 +284,90 @@ h1 {
   width: 1em;
   height: 1em;
   fill: white;
+}
+
+.quick-search-section {
+  max-height: 50vh;
+  background-color: #008AEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  position: relative;
+}
+.quick-search-section .filters-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70vw;
+  max-width: 70vw;
+  border-radius: 1em;
+  padding: 1em;
+  gap: 1em;
+}
+.quick-search-section .filters-wrapper .heading-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.quick-search-section .filters-wrapper .heading-container svg {
+  max-width: 2em;
+  max-height: 2em;
+}
+.quick-search-section .filters-wrapper .quick-search-form {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.quick-search-section .filters-wrapper .quick-search-form #search {
+  flex: 1 1 73%;
+  padding: 0.8em;
+  border-radius: 2em;
+  border: 2px solid #008AEE;
+  outline: none;
+}
+.quick-search-section .filters-wrapper .quick-search-form #search-btn {
+  flex: 1 1 18%;
+  padding: 0.8em;
+  border-radius: 2em;
+  border: none;
+  background: #008AEE;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.quick-search-section .filters-wrapper .labels-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+.quick-search-section .filters-wrapper .labels-container .label {
+  padding: 0.5em;
+  border: 2px solid #008AEE;
+  border-radius: 2em;
+  flex: 0 1 13.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quick-search-section .filters-wrapper .labels-container .label:nth-child(5) {
+  border: 2px solid #E06941;
+}
+.quick-search-section .filters-wrapper .labels-container .label:nth-child(6) {
+  border: 2px solid #E06941;
+}
+
+.quick-search-section::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 29px solid #008AEE;
+  position: absolute;
+  left: 0;
+  top: -18px;
 }/*# sourceMappingURL=combined.css.map */
