@@ -16,7 +16,11 @@ $(document).ready(function(){
     initBigSlide()
 
    $(window).on('scroll', function(){
+    console.log($(this).scrollTop())
         if($(this).scrollTop() >= 160){
+            if($(this).scrollTop() >= 290){
+                $('.advert-section').fadeIn('slow').css({'display' : 'flex'})
+            }
             $('.quick-search-section').css({'z-index': 0})
         }else {
             $('.quick-search-section').css({'z-index': 2})

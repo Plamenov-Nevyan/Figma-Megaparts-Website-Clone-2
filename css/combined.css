@@ -410,4 +410,37 @@ h1 {
 }
 .big-slider-section .next-slide {
   right: 0;
+}
+
+.advert-section {
+  display: none;
+  max-width: 96vw;
+  padding: 1em;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+}
+.advert-section .advert {
+  flex: 0 1 23%;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.advert-section .advert svg {
+  flex: 0 1 30%;
+}
+.advert-section .advert .advert-text {
+  flex: 0 1 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.advert-section .advert .advert-text p:first-child {
+  font-weight: bold;
+}
+.advert-section .advert .advert-text p:last-child {
+  opacity: 0.5;
+}
+.advert-section .advert:last-child .advert-text {
+  flex: 0 1 80%;
 }/*# sourceMappingURL=combined.css.map */
