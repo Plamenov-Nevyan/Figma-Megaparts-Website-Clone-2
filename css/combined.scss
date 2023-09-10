@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap');
+            
+        // TYPOGRAPHY AND RESET
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    font-family: 'Exo 2', sans-serif;
+}
+
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,  span {
+    font-size: clamp(1rem, 1.3vw, 1.6rem);
+}
+
+table, button, a, input, select {
+    font-size: clamp(1rem, 1.3vw, 1.6rem);
+}
+
+h6 {
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+}
+
+h5 {
+    font-size: clamp(1.7rem, 2.7vw, 2.4rem);
+}
+
+h4{
+    font-size: clamp(1.9rem, 2.7vw, 2.6rem);
+}
+
+h3 {
+    font-size: clamp(2.1rem, 2.9vw, 2.8rem);
+}
+
+h2 {
+    font-size: clamp(2.3rem, 3.1vw, 3rem);
+}
+
+h1 {
+    font-size: clamp(1.5rem, 1.3vw - 1rem, 3.3rem);
+}    
+               
+        //  HEADER
+.site-header {
+    min-width: 100%;
+    .header-top {
+        display: flex;
+        align-items: flex-start;
+        background: #16242E;
+        padding: 1em;
+        gap: 2em;
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto 0;
+            max-width: 20%;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .nav-divider {
+            background-color: #394957;
+            min-width: 2px;
+            min-height: 8vh;
+            align-self: center;
+        }
+        .headings-container {
+            margin: auto 0;
+            display: flex;
+            gap: 1em;
+            max-width: 25%;
+            flex-wrap: wrap;
+            .heading-one {
+                display: flex;
+                h1 {
+                    font-style: italic;
+                }
+                h1:first-child {
+                    color: #8E4129;
+                }
+                h1:last-child{
+                    color: #A3A7AB;
+                }
+            }
+            .heading-two {
+                display: flex;
+                h1 {
+                    font-style: italic;
+                }
+                h1:first-child {
+                    color: #655237;
+                }
+                h1:last-child{
+                    color: #A3A7AB;
+                }
+            }
+        }
+        input[type="checkbox"] {
+            display: none;
+        }
+        .site-nav {
+            max-width: 47%;
+            .nav-links {
+                display: flex;
+                list-style-type: none;
+                gap: .1em;
+                align-items: center;
+                flex-wrap: wrap;
+                .nav-divider {
+                    background-color: #394957;
+                    min-width: 2px;
+                    min-height: 8vh;
+                    align-self: center;
+                }
+                li {
+                    padding: 1em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a {
+                        color: white;
+                        svg {
+                            width: 1.5em;
+                            height: 1.5em;
+                        }
+                    }
+                }
+                li:first-child {
+                    a{
+                        svg {
+                            fill: white;
+                        }
+                    }
+                }
+                li:nth-child(2){
+                    a{
+                        svg {
+                            fill: white;
+                        }
+                    }
+                }
+                li:nth-child(3){
+                    a{
+                        svg {
+                            fill: white;
+                        }
+                    }
+                }
+                li:nth-child(4) {
+                    a {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.2em;
+                        svg {
+                                fill: white;
+                            }
+                    }
+                }
+                li:nth-child(5){
+                    a {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.2em;
+                        svg {
+                                fill: white;
+                            }
+                    }
+                }
+                li:nth-child(7){
+                    fill: red;
+                }
+                li:nth-child(8){
+                    fill: #008AEE;
+                }
+                li:nth-child(10){
+                    svg {
+                        fill: #5FB865;
+                    }
+                    span {
+                        color:  white;
+                    }
+                }
+            }
+        }
+        .hamburger-btn {
+            display: none;
+            align-items: center;
+            gap: 0.4em;
+            padding: 1em;
+            fill: white;
+            svg {
+                width: 2em;
+                fill: white;
+            }
+        }
+        .hamburger-btn:hover {
+            cursor: pointer;
+        }   
+    }
+    .header-bottom {
+        display: flex;
+        justify-content: center;
+        background-color: #1C2D3A;
+        align-items: center;
+        .home-badge {
+            display: flex;
+            border-radius: 5em;
+            padding: 0.2em 0.5em;
+            align-items: center;
+            min-height: 12vh;
+            background-color: #008AEE;
+            svg {
+                fill: white;
+                width: 1em;
+                height: 1em;
+            }
+        }
+        .header-bottom-nav-left {
+            padding: 1em;
+            .nav-left-links {
+                display: flex;
+                list-style-type: none;
+                gap: .4em;
+                li{
+                    display: flex;
+                    border-radius: 5em;
+                    padding: 0.2em 0.5em;
+                    align-items: center;
+                }
+                li:first-child {
+                    background-color: #008AEE;
+                }
+                li:nth-child(2){
+                    background-color: #F2992F;
+                }
+                li:nth-child(3){
+                    background-color: #2CCACA;
+                }
+                li:nth-child(4){
+                    background-color: #33BB5A;
+                }
+                li:nth-child(5){
+                    background-color: #BD5FE9;
+                }
+                li:nth-child(6){
+                    background-color: #EE4700;
+                }
+                li:nth-child(7){
+                    background-color: #E59D48;
+                }
+                li:nth-child(8){
+                    background-color: #DC5426;
+                }
+                li:nth-child(9){
+                    border: 2px solid #793F30;
+                    background: transparent;
+                }
+                li:nth-child(10){
+                    background-color: #63C7C9;
+                }
+                a  {
+                    text-transform: uppercase;
+                    color: white;
+                    svg{
+                        width: 1em;
+                        height: 1em;
+                        fill: white;
+                    }
+                }
+            }
+        }
+        .header-bottom-nav-right {
+            padding: 1em;
+            .nav-right-links {
+                display: flex;
+                list-style-type: none;
+                gap: 1em;
+                align-items: center;
+                li:first-child {
+                    background-color: #F5A636;
+                    border-radius: 4em;
+                    padding: 0.6em 0.6em;
+                }
+                a {
+                    svg{
+                        width: 1em;
+                        height: 1em;
+                        fill: white;
+                    }
+                }
+            }
+        }
+    }
+}
