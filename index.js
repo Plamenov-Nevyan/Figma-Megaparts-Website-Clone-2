@@ -21,6 +21,24 @@ $(document).ready(function(){
             if($(this).scrollTop() >= 290){
                 $('.advert-section').fadeIn('slow').css({'display' : 'flex'})
             }
+            if($(this).scrollTop() >= 1000){
+                let delay = 0
+                $('.link-article').each(function(){
+                    setTimeout(() => {
+                        $(this).fadeIn(500)
+                    }, delay)
+                    delay += 500
+                })
+            }
+            if($(this).scrollTop() >= 1500){
+                let delay = 0
+                $('.badge').each(function(){
+                    setTimeout(() => {
+                        $(this).show('slide', {direction: 'right'}, 500)
+                    }, delay)
+                    delay += 500
+                })
+            }
             $('.quick-search-section').css({'z-index': 0})
         }else {
             $('.quick-search-section').css({'z-index': 2})

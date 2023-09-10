@@ -33,11 +33,11 @@ h6 {
 }
 
 h5 {
-  font-size: clamp(1.7rem, 2.7vw, 2.4rem);
+  font-size: clamp(1rem, 0.7vw, 1.4rem);
 }
 
 h4 {
-  font-size: clamp(1.9rem, 2.7vw, 2.6rem);
+  font-size: clamp(1.9rem, 1.7vw, 2.6rem);
 }
 
 h3 {
@@ -671,4 +671,177 @@ h1 {
 .automatic-product-slider .products-article .products-slider .automatic-product-slide:first-child .slide-middle p span, .automatic-product-slider .products-article .products-slider .automatic-product-slide:last-child .slide-middle p span {
   color: #5FB865;
   font-weight: bold;
+}
+
+.links-section {
+  width: 96vw;
+  display: flex;
+  height: 60vh;
+  max-height: 60vh;
+  padding: 1em;
+  align-items: flex-start;
+  gap: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.links-section .link-articles {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.links-section .link-articles .link-article {
+  display: none;
+  flex-direction: column;
+  background-color: #5FB865;
+  padding: 1em;
+  gap: 1em;
+  border-radius: 1em;
+  flex: 1 1 20%;
+}
+.links-section .link-articles .link-article .article-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links-section .link-articles .link-article .article-top svg {
+  max-width: 3em;
+  max-height: 3em;
+}
+.links-section .link-articles .link-article .article-top h4 {
+  color: white;
+}
+.links-section .link-articles .link-article .article-middle {
+  text-align: center;
+  width: 100%;
+}
+.links-section .link-articles .link-article .article-middle p {
+  color: white;
+}
+.links-section .link-articles .link-article .article-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.links-section .link-articles .link-article .article-bottom button {
+  flex: 0 1 53%;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  justify-content: center;
+  padding: 0.5em 1em;
+  background: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1em;
+  background: white;
+  color: #5FB865;
+  font-weight: bold;
+}
+.links-section .link-articles .link-article .article-bottom button svg {
+  max-width: 1em;
+}
+.links-section .link-articles .link-article .article-bottom p {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 0.5em;
+}
+.links-section .link-articles .link-article .article-bottom p svg {
+  max-width: 1em;
+  max-height: 1em;
+}
+.links-section .link-articles .link-article:nth-child(1) {
+  background-color: #63C7C9;
+}
+.links-section .link-articles .link-article:nth-child(1) .article-bottom button {
+  color: #63C7C9;
+}
+.links-section .link-articles .link-article:nth-child(1) .article-bottom button svg {
+  fill: #63C7C9;
+}
+.links-section .link-articles .link-article:nth-child(2) {
+  background-color: #DC5426;
+}
+.links-section .link-articles .link-article:nth-child(2) .article-bottom button {
+  color: #DC5426;
+}
+.links-section .link-articles .link-article:nth-child(2) .article-bottom button svg {
+  fill: #DC5426;
+}
+.links-section .link-articles .link-article:nth-child(3) {
+  background-color: #E59D48;
+}
+.links-section .link-articles .link-article:nth-child(3) .article-bottom button {
+  color: #E59D48;
+}
+.links-section .link-articles .link-article:nth-child(3) .article-bottom button svg {
+  fill: #E59D48;
+}
+.links-section .link-articles .link-article:nth-child(4) {
+  background-color: #BD5FE9;
+}
+.links-section .link-articles .link-article:nth-child(4) .article-bottom button {
+  color: #BD5FE9;
+}
+.links-section .link-articles .link-article:nth-child(4) .article-bottom button svg {
+  fill: #BD5FE9;
+}
+.links-section .link-badges {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-items: center;
+  width: 100%;
+}
+.links-section .link-badges .badge {
+  flex: 0 1 20%;
+  border-radius: 1em;
+  padding: 0.5em 0.5em;
+  display: none;
+}
+.links-section .link-badges .badge .badge-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  justify-content: center;
+}
+.links-section .link-badges .badge .badge-top svg {
+  max-width: 2em;
+  max-height: 2em;
+}
+.links-section .link-badges .badge .badge-bottom {
+  display: flex;
+  justify-content: center;
+}
+.links-section .link-badges .badge .badge-bottom span {
+  opacity: 0.5;
+}
+.links-section .link-badges .badge:nth-child(1) {
+  border: 2px solid #DC5426;
+}
+.links-section .link-badges .badge:nth-child(1) .badge-top h5 {
+  color: #DC5426;
+}
+.links-section .link-badges .badge:nth-child(2) {
+  border: 2px solid #87CA8B;
+}
+.links-section .link-badges .badge:nth-child(2) .badge-top h5 {
+  color: #87CA8B;
+}
+.links-section .link-badges .badge:nth-child(3) {
+  border: 2px solid #2099F0;
+}
+.links-section .link-badges .badge:nth-child(3) .badge-top h5 {
+  color: #2099F0;
+}
+.links-section .link-badges .badge:nth-child(4) {
+  border: 2px solid #205AF0;
+}
+.links-section .link-badges .badge:nth-child(4) .badge-top h5 {
+  color: #205AF0;
 }/*# sourceMappingURL=combined.css.map */
