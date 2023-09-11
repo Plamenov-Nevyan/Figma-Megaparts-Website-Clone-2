@@ -141,7 +141,36 @@ $(document).ready(function(){
     }
 
     function initNavBadgesSlide(){
-        $('.badges-slide-links').slick()
+        $('.badges-slide-links').slick({
+            responsive: [
+                {
+                  breakpoint: 1200,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                  },
+                },
+                {
+                  breakpoint: 1008,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                  },
+                },
+                {
+                  breakpoint: 800,
+                  settings: 'unslick',
+                },
+              ],
+        })
+
+        $(window).resize(function () {
+            $('.badges-slide-links').not('.slick-initialized').slick('resize');
+        });
+        
+        $(window).on('orientationchange', function () {
+            $('.badges-slide-links').not('.slick-initialized').slick('resize');
+        });
     }
 
     function initManualProductSlider(){
