@@ -899,4 +899,47 @@ h1 {
 }
 .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial1 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial2 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container1 #testimonial3 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial1 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial2 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container2 #testimonial3 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial1 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial2 .testimonial-bottom .user-info .rating, .testimonials-section #testimonials-slider .sp-mask #testimonial-slide #testimonial-container3 #testimonial3 .testimonial-bottom .user-info .rating {
   display: flex;
+}
+
+.map-section {
+  position: relative;
+  height: 110vh;
+  max-height: 110vh;
+}
+.map-section #map {
+  display: none;
+}
+.map-section div.mega-logo-1 {
+  position: absolute;
+  top: 38.5%;
+  left: 14.2%;
+  z-index: 1;
+  width: 110px;
+  display: none;
+}
+.map-section div.mega-logo-1 svg {
+  max-width: 3em;
+}
+.map-section div.mega-logo-2 {
+  position: absolute;
+  top: 23.6%;
+  right: 7%;
+  z-index: 1;
+  width: 110px;
+  display: none;
+}
+.map-section div.mega-logo-2 svg {
+  max-width: 3em;
+}
+.map-section .pin-varna {
+  display: none;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+.map-section .pin-sofia {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 12%;
 }/*# sourceMappingURL=combined.css.map */

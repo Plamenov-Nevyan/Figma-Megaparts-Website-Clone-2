@@ -974,3 +974,47 @@ h1 {
     }
 }
 }
+
+        //  MAP SECTION 
+.map-section {
+    position: relative;
+    height: 110vh;
+    max-height: 110vh;
+    #map {
+        display: none;
+    }
+    div.mega-logo-1 {
+        position: absolute;
+        top: 38.5%;
+        left: 14.2%;
+        z-index: 1;
+        width: 110px;
+        display: none;
+        svg {
+            max-width: 3em;
+        }
+    }
+    div.mega-logo-2{
+        position: absolute;
+        top: 23.6%;
+        right: 7%;
+        z-index: 1;
+        width: 110px;
+        display: none;
+        svg {
+            max-width: 3em;
+        }
+    }
+    .pin-varna {
+        display: none;
+        position: absolute;
+        top: 20%;
+        right: 10%;
+    }
+    .pin-sofia {
+        display: none;
+        position: absolute;
+        top: 35%;
+        left: 12%;
+    }
+}

@@ -40,6 +40,30 @@ $(document).ready(function(){
                     delay += 500
                 })
             }
+            if($(this).scrollTop() >= 2100){
+                $('#map').show('slide', {direction: 'left'}, 500)
+                let delay = 0
+                $('.pin-sofia').effect( "bounce", {
+                    direction: 'right',
+                    distance: 40,
+                    mode: 'show',
+                    times: 3
+                }, 2000 , function(){
+                    $('.mega-logo-1').fadeIn('slow')  
+                } )
+                delay += 1000
+                setTimeout(() => {
+                    $('.pin-varna').effect( "bounce", {
+                        direction: 'left',
+                        distance: 40,
+                        mode: 'show',
+                        times: 3
+                    }, 2000, function(){
+                        $('.mega-logo-2').fadeIn('slow')  
+                    })
+                    
+                }, delay)
+            }
             $('.quick-search-section').css({'z-index': 0})
         }else {
             $('.quick-search-section').css({'z-index': 2})
