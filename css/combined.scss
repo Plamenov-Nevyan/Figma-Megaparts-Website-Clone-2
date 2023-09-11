@@ -1018,3 +1018,110 @@ h1 {
         left: 12%;
     }
 }
+
+        // FOOTER
+.site-footer {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    background-color: #202D39;
+    position: relative;
+    z-index: 3;
+    .footer-article:first-child {
+        background-color: transparent;
+        padding: 0;
+        .article-top {
+            padding: 1em;
+            background-color: #19242D;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            border-radius: .7em;
+            h5 {
+                color: white;
+            }
+            ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: .5em;
+                li {
+                    display: none;
+                    color: white;
+                    h5 {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .article-bottom {
+            margin-top: auto;
+            padding: 1em;
+            background-color: #19242D;
+            border-radius: .7em;
+            h5 {
+                color: #5FB865;
+            }
+        }
+    }
+    .footer-article {
+        flex: 1 1 25%;
+        padding: 1em;
+        background-color: #19242D;
+        // display: flex;
+        display: none;
+        flex-direction: column;
+        gap: 1em;
+        flex-wrap: wrap;
+        border-radius: .7em;
+        h5 {
+            color: white;
+            font-weight: bold;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: .5em;
+            list-style-type: none;
+            li {
+                color: white;
+                display: none;
+            }
+        }
+    }
+    .footer-article:last-child {
+        background-color: #19242D;
+        border-radius: .7em;
+        .article-top {
+            display: none;
+            span {
+                color: white;
+                opacity: .5;
+            }
+        }
+        .article-bottom {
+            display: none;
+            .heading-one {
+                display: flex;
+                justify-content: center;
+                h3:first-child {
+                    color: #8E4129;
+                }
+                h3:last-child{
+                    color: #A3A7AB;
+                }
+            }
+            .heading-two {
+                display: flex;
+                justify-content: center;
+                h3:first-child {
+                    color: #936D3D;
+                }
+                h3:last-child{
+                    color: #A3A7AB;
+                }
+            }
+        }
+    }
+}

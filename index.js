@@ -64,6 +64,50 @@ $(document).ready(function(){
                     
                 }, delay)
             }
+            if($(this).scrollTop() >= 2100){
+                let delay = 0
+                $('.footer-article').each(function(){
+                    setTimeout(()=>{
+                        $(this).slideDown('slow', function(){
+                            $(this).css({'display' : 'flex'})
+                            if($(this).attr('id') !== 'last-footer-article'){
+                                let articleTop = $(this).find('.article-top')
+                                let articleLinksList
+                                let articleLinks
+                                if($(articleTop).hasClass('article-top')){
+                                    articleLinksList = $(articleTop).find('.links')
+                                    articleLinks = $(articleLinksList).find('.link')
+                                  
+                                }else {
+                                    articleLinksList = $(this).find('.links')
+                                    articleLinks = $(articleLinksList).find('.link')
+                                }
+                                let linkDelay = 0
+                                $(articleLinks).each(function(){
+                                    setTimeout(() => {
+                                        $(this).fadeIn('slow')
+                                    }, linkDelay)
+                                    linkDelay += 500
+                                })
+                            }else {
+                               $(this).find('.article-top').effect('bounce', {
+                                direction: 'left',
+                                distance: 40,
+                                mode: 'show',
+                                times: 3
+                               }, 2000)
+                               $(this).find('.article-bottom').effect('bounce', {
+                                direction: 'right',
+                                distance: 40,
+                                mode: 'show',
+                                times: 3
+                               }, 2000)
+                            }
+                        })
+                    }, delay)
+                    delay += 500
+                })
+            }
             $('.quick-search-section').css({'z-index': 0})
         }else {
             $('.quick-search-section').css({'z-index': 2})
